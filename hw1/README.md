@@ -1,7 +1,7 @@
 # HW1: Python Data Analysis Basics
 
 Updated to follow the revised Canvas instructions. The required analysis
-is in `src/hw1_data_analysis/hw1.py`; the notebook is earlier exploratory work.
+is in `src/hw1_data_analysis/hw1.py`.
 
 I used pandas to read the CSV, convert dates and count types, and add
 total, hour, and year columns. I selected 2016 and removed one row with
