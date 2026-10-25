@@ -22,3 +22,16 @@ From the repository root, with the virtual environment activated, run:
 `python hw1/src/hw1_data_analysis/hw1.py`
 
 ![Hourly bicycle counts in 2016](counts_by_hour.png)
+
+## Bonus: Datetime Types
+
+- **Python `datetime.datetime`** represents an individual date and time.
+- **NumPy `datetime64`** stores datetime values efficiently in arrays
+  and supports vectorized operations.
+- **pandas `Timestamp`** represents an individual datetime value.
+  Pandas datetime columns support operations across a Series,
+  including filtering and extracting date components.
+
+I used `pd.to_datetime()` to convert the entire `Date` column before
+selecting 2016. This allowed me to extract hours and years using
+`.dt.hour` and `.dt.year`.
