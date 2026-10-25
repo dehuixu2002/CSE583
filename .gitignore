@@ -1,5 +1,7 @@
 HW0/pronto/
 .DS_Store
 .venv/
-project/data/
 .ipynb_checkpoints/
+bicycle_data.csv
+__pycache__/
+*.pyc
